@@ -33,4 +33,4 @@ api.add_resource(Leaks, '/leaks/<string:top>')
 api.add_resource(FeatureLeaks, '/top-leak')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
